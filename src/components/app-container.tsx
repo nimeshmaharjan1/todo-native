@@ -14,7 +14,7 @@ type Props = {
 const AppContainer: React.FC<Props> = ({ children }) => {
   return (
     <NavigationContainer>
-      <NativeBaseProvider>{children}</NativeBaseProvider>
+      <NativeBaseProvider theme={theme}>{children}</NativeBaseProvider>
     </NavigationContainer>
   );
 };
