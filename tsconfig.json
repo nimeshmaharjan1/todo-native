@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "baseUrl": "./src",
+  "baseUrl": "src",
   "paths": {
     "@assets/*": ["assets/*"],
     "@screens/*": ["screens/*"],
